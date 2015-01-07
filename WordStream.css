@@ -1,9 +1,9 @@
-*{outline: solid 1px red;}
+
 /*
 COLORS
 
 Blue: #007EC0
-Dark Blue: #007EC0
+Dark Blue: #004E90
 
 */
 
@@ -16,9 +16,168 @@ body{
 	font-family: sans-serif;
 	font-size: 70%;
 }
-h1 {font-weight: bold; font-size: 1.5em; color: #007EC0;}
-h2 {font-weight: normal; font-size: 1.5em; color: #007EC0;}
-h3 {font-weight: bold; font-size:1.2em; color: #007EC0;}
-h4 {font-weight: bold; font-size: 1em; color: #FF0000;}
-
+h1 {font-weight: bold; font-size: 1.5em; color: #007EC0; margin-bottom: 1em;}
+h2 {font-weight: normal; font-size: 1.5em; color: #007EC0; margin-bottom: 1em;}
+h3 {font-weight: bold; font-size:1.2em; color: #007EC0; margin-bottom: 0.5em;}
+h4 {font-weight: bold; font-size: 1em; color: #FF0000; margin-bottom: 0.5em;}
+p {margin-bottom: 1em;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+ul {
+	margin-bottom: 30px;
+	margin-left: 1.3em;
+	list-style: url("bluebullet.png");
+	line-height: 1.5em;
+}
+.blue {
+	background: linear-gradient(#009FE1, #007EC0);
+}
+.callout {
+	border: solid 6px rgb(140, 184, 213);
+	padding: 5px 5px 5px 65px;
+	margin: 20px 0px;
+	background-image: url("calloutflag.png");
+	background-repeat: no-repeat;
+}
+.callout button {
+	background-color: none;
+	background-image: url("greenbtn.png");
+	border: none;
+	width: 178px;
+	height: 37px;
+	color: #FFFFFF;
+	font-size: 1.3em;
+}
+.centered { text-align: center;}
+.orange {
+	background: linear-gradient(rgb(253, 160, 58), rgb(228, 67, 0));
+}
+.lgbutton {
+	display: block;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+	width: 100%;
+	margin: 5px 0px;
+	background-color: none;
+	border: none;
+	padding: 5px;
+}
+.line {
+	height: 0px;
+	display: block;
+	border-top: solid 1px #888888;
+	margin-bottom: 20px;
+}
 .product-ref{color: #007EC0;}
+#upper-nav {
+	display: inline-block;
+	margin: 0px 14px 0px 154px;
+	vertical-align: top;
+	color: #aaaaaa;
+}
+#upper-nav ul {
+	display: inline-block;
+	overflow: hidden;
+	padding: 7px 16px 10px 16px;
+	border: solid 1px #cccccc;
+	border-radius: 5px;
+	vertical-align: top;
+	position: relative;
+	top: -6px;
+	background-color: rgb(249, 249, 249);
+}
+#upper-nav li {
+	display: inline-block;
+}
+#upper-nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+#upper-nav .login {
+	margin: 0px 15px;
+	height: 23px;
+	font-size: 1.1em;
+	display: inline-block;
+	vertical-align: top;
+	background-color: none;
+	border: none;
+	background: linear-gradient(#00CFFF, #006EB0);
+	border-radius: 2px;
+	padding: 2px 12px;
+	color: #EEFFFF;
+}
+#banner {
+	height: 56px;
+	line-height: 56px;
+	padding: 0px 10px;
+	background: linear-gradient(#005EA0, #007EC0, #005EA0);
+	color: #FFFFFF;
+	font-size: 2em;
+}
+#content {
+	background-image: url("grad.png");
+	background-repeat: repeat-x;
+}
+#sidebar {
+	width: 222px;
+	padding: 11px;
+	margin-top: 54px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+#sidebar p {
+	margin-bottom: 20px;
+}
+#main{
+	padding: 0px 33px;
+	width: 685px; 
+	display: inline-block;
+	vertical-align: top;
+}
+#sitemap {
+	width: 464px;
+	background-image: url("smallhouse.png");
+	background-repeat: no-repeat;
+	list-style: none;
+	display: inline-block;
+	padding-left: 20px;
+	margin: 20px 0px;
+	font-size: 1.2em;
+}
+#sitemap li {
+	margin: 0px 8px 0px 8px;
+	position: relative;
+	top: -5px;
+}
+#sitemap li:before {
+	content: url("arrowbullet.png");
+	position: relative;
+	top: 6px;
+	margin-right: 4px;
+}
+#phone {
+	width: 160px;
+	padding: 8px 0px 0px 36px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 11px 0px 10px 0px;
+	background-image: url("phone.png");
+	background-repeat: no-repeat;
+	color: #888888;
+}
+#phone span {
+	color: #007EC0;
+	font-weight: bold;
+	font-size: 2.3em;
+}
+
+
+
+
+
+
+
